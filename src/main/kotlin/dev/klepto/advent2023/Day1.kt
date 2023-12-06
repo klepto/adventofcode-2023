@@ -34,7 +34,7 @@ class Day1(val input: String) {
 }
 
 fun main(args: Array<String>) {
-    val input = Resources.readTextResource("day1_input.txt")
+    val input = Resources.readTextResource("day1.input.txt")
     println(Day1(input).solvePart1())
     println(Day1(input).solvePart2())
 }
